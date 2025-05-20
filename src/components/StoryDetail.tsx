@@ -8,7 +8,7 @@ interface StoryDetailProps {
 }
 
 const StoryDetail: React.FC<StoryDetailProps> = ({ story, onClose }) => {
-  // Handle escape key to close modal
+  
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose();

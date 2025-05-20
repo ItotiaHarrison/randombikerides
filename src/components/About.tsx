@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">About Trail Tales</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">About Bike Tales</h2>
             <div className="h-1 w-24 bg-orange-500 mx-auto rounded-full"></div>
           </div>
           
@@ -24,7 +24,7 @@ const About: React.FC = () => {
               <div className="p-6 md:p-8 md:w-2/3">
                 <h3 className="text-2xl font-bold text-green-800 mb-4">The Journey Behind the Stories</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Welcome to Trail Tales, my personal journal of mountain biking adventures across diverse landscapes and challenging terrains. What started as a casual weekend hobby has evolved into a passionate pursuit of discovering new trails, pushing my limits, and capturing the beauty of nature from the saddle of my bike.
+                  Welcome to Bike Tales, my personal journal of mountain biking adventures across diverse landscapes and challenging terrains. What started as a casual weekend hobby has evolved into a passionate pursuit of discovering new trails, pushing my limits, and capturing the beauty of nature from the saddle of my bike.
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Each story shared here represents not just a ride, but an experience – complete with unexpected discoveries, occasional mishaps, and the inevitable moments of awe that make mountain biking such a rewarding activity. Whether you're an experienced rider or simply enjoy outdoor adventures, I hope these tales inspire you to explore the trails in your area.

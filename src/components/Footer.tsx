@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold flex items-center">
-              <span className="inline-block mr-2">🚵‍♂️</span> TrailTales
+              <span className="inline-block mr-2">🚵‍♂️</span> BikeTales
             </h2>
             <p className="text-green-200 mt-2 max-w-md">
               Exploring the world one trail at a time, documenting the journey, and sharing the adventure.
@@ -58,8 +58,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-green-700 text-center text-green-300 text-sm">
-          <p>© {currentYear} TrailTales. All rights reserved.</p>
-          <p className="mt-2">Photos courtesy of Pexels</p>
+          <p>© {currentYear} BikeTales. All rights reserved.</p>
         </div>
       </div>
     </footer>

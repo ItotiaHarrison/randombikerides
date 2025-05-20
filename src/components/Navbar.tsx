@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
         <a href="#" className="text-2xl font-bold text-green-800 flex items-center">
           <span className="inline-block mr-2">🚵‍♂️</span>
           <span className={`transition-colors duration-300 ${isScrolled ? 'text-green-800' : 'text-white'}`}>
-            TrailTales
+            BikeTales
           </span>
         </a>
         

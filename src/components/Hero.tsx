@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden" id="home">
-      {/* Parallax Background Layers */}
+      
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
         }}
       />
       
-      {/* Content */}
+      
       <div className="container mx-auto px-4 z-30 text-center">
         <h1 
           className="text-4xl md:text-6xl font-bold text-white mb-6"
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
             transform: `translateY(${-scrollY * 0.2}px)`,
           }}
         >
-          Trail Tales
+          Bike Tales
         </h1>
         <p 
           className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto"
@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
             transform: `translateY(${-scrollY * 0.15}px)`,
           }}
         >
-          Join me on epic mountain biking adventures, from misty forests to dusty desert trails
+          Join me on epic biking adventures, from misty forests to dusty trails
         </p>
         <a 
           href="#stories" 
